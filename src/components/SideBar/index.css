@@ -1,0 +1,29 @@
+.sidebar-container {
+  width: 14%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+
+.cmp-logo-name {
+  color: #646665;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 15px;
+}
+
+.list-name-one {
+  padding-top: 50px;
+  padding-left: 25px;
+  font-size: 18px;
+}
+
+.list-name-two {
+  background-color: #f7d58b;
+  margin-top: 10px;
+  padding: 12px 25px;
+  font-size: 18px;
+}

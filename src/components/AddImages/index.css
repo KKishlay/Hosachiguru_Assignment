@@ -1,0 +1,79 @@
+.add-images-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.add-images-column-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.upload-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-header {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.image-para {
+  color: #a3a2a0;
+}
+
+.choose-img {
+  width: 100px;
+  height: 100px;
+  color: #a3a2a0;
+  margin-top: 70px;
+}
+.choose-img-button {
+  width: 250px;
+  height: 45px;
+  border: 1px solid #a3a2a0;
+  color: #64748b;
+  border-radius: 8px;
+  margin-top: 18px;
+}
+.preview-header-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+.preview-img {
+  width: 150px;
+  height: 180px;
+  color: #a3a2a0;
+  margin-right: 20px;
+}
+.preview-header {
+  color: #72706c;
+}
+.input-button {
+  width: 500px;
+  height: 45px;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: white;
+  background-color: peru;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.cancel-input-button {
+  width: 500px;
+  height: 45px;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #a3a2a0;
+  border-radius: 8px;
+  color: #64748b;
+}

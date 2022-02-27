@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from "./components/HomePage";
+import InputPage from "./components/InputPage";
+import AddImages from "./components/AddImages";
+import AddedPet from "./components/AddedPet";
+import UpdateInputPet from "./components/UpdateInputPet";
+import UpdateImage from "./components/UpdateImage";
+import React from "react";
+import "./App.css";
+import { Route, Switch } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/" component={HomePage} />
+      <Route exact path="/inputpage" component={InputPage} />
+      <Route exact path="/add-images" component={AddImages} />
+      <Route exact path="/update-input-pet" component={UpdateInputPet} />
+      <Route exact path="/update-image" component={UpdateImage} />
+      <Route exact path="/added-pet" component={AddedPet} />
+    </Switch>
   );
-}
-
+};
 export default App;
